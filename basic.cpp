@@ -1,8 +1,17 @@
-#include <iostream>
-using namespace std;
+#include <iostream>   
 
 int main() {
-    cout << "Hello, world!" << std::endl;
+    int favorite_number;
+
+    std::cout << "Enter number:" << std::endl;
+
+    std::cin >> favorite_number;
+
+    std::cout << "Thank you." << std::endl;
+    
+    int age {20};
+
+    std::cout << age << std::endl;
+
     return 0;
 }
-
